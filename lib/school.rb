@@ -25,7 +25,7 @@ def grade(grade)
       # binding.pry
   if roster[grade]==grade
     binding.pry
-     roster[name]
+     name
    end
   end
 end
