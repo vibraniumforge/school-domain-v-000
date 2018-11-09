@@ -20,8 +20,10 @@ class School
   end
 
 def grade(grade)
+  roster.each do |grade, name|
   if roster[grade]==grade
      roster[name]
+   end
   end
 end
 
