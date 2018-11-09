@@ -16,6 +16,12 @@ class School
       @roster[grade] << name
     else
       roster[grade]=[name]
+    end
+  end
+
+def grade(grade)
+  if roster[grade]==grade
+    puts roster
   end
 end
 
