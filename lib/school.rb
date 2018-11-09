@@ -1,3 +1,4 @@
+require"pry"
 class School
   attr_accessor :school
   # attr_reader: school
@@ -22,6 +23,7 @@ class School
 def grade(grade)
   roster.each do |grade, name|
   if roster[grade]==grade
+    binding.pry
      roster[name]
    end
   end
