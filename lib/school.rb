@@ -21,6 +21,7 @@ class School
   end
 
 def grade(grade)
+  binding.pry
   roster.each do |grade, name|
       binding.pry
   if roster[grade]==grade
