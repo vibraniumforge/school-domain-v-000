@@ -21,7 +21,7 @@ class School
 
 def grade(grade)
   if roster[grade]==grade
-    puts roster[name]
+     roster[name]
   end
 end
 
